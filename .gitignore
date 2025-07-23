@@ -1,3 +1,14 @@
-*.env
-*.py[cod]
+# Ignore Python cache
 __pycache__/
+*.py[cod]
+
+# Ignore environment folders
+venv/
+.venv/
+
+# Ignore user config
+.env
+
+# Ignore generated reports
+Reports/
+
